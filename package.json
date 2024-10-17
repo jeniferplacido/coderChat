@@ -1,0 +1,28 @@
+{
+  "name": "coderchat",
+  "version": "1.0.0",
+  "description": "Chat em tempo real com deploy no Glich",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeniferplacido/coderChat.git"
+  },
+  "keywords": [
+    "https://github.com/jeniferplacido/coderChat.git"
+  ],
+  "author": "Jenifer Placido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeniferplacido/coderChat/issues"
+  },
+  "homepage": "https://github.com/jeniferplacido/coderChat#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "socket.io": "^4.8.0"
+  }
+}
